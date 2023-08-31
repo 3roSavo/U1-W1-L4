@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+h1 {
+    font-size:2.2em;
+    font-weight:500;
+    margin:20px 0px;
+}
+h3 {
+    font-size:1.5em;
+    margin:20px 0;
+
+}
+
+#logo {
+    width:300px;
+}
+
+nav ul li {
+    margin:10px 0;
+    font-size:1.2em;
+}
+
+#author {
+    color:lightgrey;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background-image:url(/assets/img/sfondo.png);
+    background-position: center;
+    font-size:18px;
+    
+    
+    
+}
+
+table {
+    border-bottom:4px solid rgb(51,102,204);
+    margin:25px 0;
+}
+tr:nth-child(odd) {
+    background-color:rgb(240,240,240);
+}
+
+caption {
+    font-style: italic;
+    font-weight: bold;
+}
+
+th {
+    background-color:rgb(59, 112, 217);
+    color:white;
+    border:1px solid white;
+}
+
+th,td {
+    padding:20px;
+    text-align: center;
+}
+
+#container {
+    margin:20px;
+}
+
+header {
+    background: linear-gradient(180deg, rgba(0,165,190,1) 1%, rgba(0,104,136,1) 85%);
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    padding:40px;
+    box-shadow: 4px 4px 10px grey;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    padding:20px;
+}
+
+footer {
+    background-color: rgb(0,104,136);
+}
+
+iframe {
+    border-radius: 20px;
+    width:100%;
+    margin:25px 0;
+}
+
+.box {
+    padding:20px;
+    background-color: rgb(225,230,231);
+    margin:15px;
+    border:2px solid rgb(204, 210, 216);
+    height:100px;
+
+
+}
+
+.box a {
+    font-weight: bold;
+}
+
+aside .box div {
+    margin-bottom:10px;
+
+}
+
+.date {
+    margin-top:25px;
+    text-align: right;
+}
+
+#novita {
+    background-color:rgb(225,230,231);
+}
+
+h2 {
+    text-align: center;
+    margin:20px 0;
+    font-size: 1.6em;
+    
+}
