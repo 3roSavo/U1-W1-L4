@@ -8,7 +8,7 @@ h1 {
 }
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 20px 0;
 
 }
@@ -19,7 +19,7 @@ h3 {
 
 nav ul li {
     margin: 10px 0;
-    font-size: 1.2em;
+    font-size: 1.1em;
 }
 
 #author {
@@ -32,7 +32,7 @@ body {
     background-image: url(/assets/img/sfondo.png);
     background-position: center;
     font-size: 18px;
-    line-height: normal;
+    line-height:1.7em;
 
 
 
@@ -115,7 +115,7 @@ aside .box div {
 }
 
 .date {
-    margin-top: 25px;
+    margin-top: 15px;
     text-align: right;
 }
 
@@ -147,16 +147,21 @@ form p {
 #email {
     height: 30px;
     width: 210px;
+    border-bottom: 3px dotted black;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+
 }
 
 #pulsante {
-    width: 130px;
+    width: 115px;
     height: 30px;
     font-size: 20px;
     color: white;
     background-color: rgb(59, 112, 217);
     box-shadow: 4px 4px 10px grey;
-    margin: 5px;
+    font-weight:bold;
 }
 
 #pulsante:hover {
@@ -172,11 +177,12 @@ footer {
 
 footer h6 {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 footer a {
     color: rgb(255, 0, 250);
+    font-weight: bold;
 }
 
 ul span {
@@ -185,8 +191,32 @@ ul span {
     border: 2px solid rgb(163, 163, 163);
 }
 
-/* ul li { 
-    list-style:circle;
-    display:block;
+main ul {
+    list-style:disc;
+    display: block;
+    padding-inline-start: 40px;
+    margin-block-start: 1em;
+    margin-block-end:1em;
+    margin-inline-start:0px;
+    margin-inline-end:0px;
 }
-  */
+
+main ul li {
+    display:list-item;
+}
+
+#second-section span {
+    text-decoration: underline;
+    font-weight: bold;
+    color:rgb(81,173,219);
+}
+
+#first-to-do {
+    font-weight: bold;
+    color:rgb(170,32,114);
+}
+
+#selection-with-css  {
+    font-weight: bold;
+    color:rgb(170,32,114);
+}
